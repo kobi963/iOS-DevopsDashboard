@@ -15,7 +15,7 @@ pipeline {
         
         stage ('Testing Stage') {
             tools {
-                jdk "JDK8"
+                jdk "JDK8" //
             }
             steps {
                 sh '''
